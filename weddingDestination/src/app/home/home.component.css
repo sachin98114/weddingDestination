@@ -1,0 +1,305 @@
+/* .p-1 {
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/29/16/34/mothers-day-616363_1280.jpg');
+} */
+
+.p-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.p-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+
+}
+
+
+.cursor{
+    font-size:50px; 
+    color: rgb(255 0 184);
+}
+
+.iconlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+
+
+
+.p-3 {
+    background-image: url('src\assets\bg-img\p-3 background.jpg');
+    /* Additional background properties */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-title {
+    text-align: center;
+    margin: auto;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.p-4 {
+    justify-content: center;
+}
+
+.p-4-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    /* Adjust the scale factor as desired */
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card {
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    grid-template-areas:
+        "a b b"
+        "a c d";
+}
+
+.item {
+    padding: 6rem;
+    background-color: #ccc;
+}
+
+.item-a {
+    grid-area: a;
+    background-image: url('src\assets\picture\pexels-cinestyle-india-1589216.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+}
+
+.item-b {
+    grid-area: b;
+    background-image: url('src\assets\picture\gridweddingrotate.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+}
+
+.item-c {
+    grid-area: c;
+    background-image: url('src\assets\picture\Indian-Traditions39-Ceremony-171.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+}
+
+.item-d {
+    grid-area: d;
+    background-image: url('src\assets\picture\hindu+wedding+attire-1920w.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+}
+
+
+button {
+    padding: 10px 20px; /* Set padding to create space inside the button */
+    background-color: #be1399; /* Set the background color of the button */
+    border: none; /* Remove the button border if desired */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Set the shadow effect */
+  }
+    
+    .card-body {
+    background: blanchedalmond;
+    font-style: italic;
+    font-size: larger;
+  }
+
+  .grid-inside{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-grid {
+    width: 100%; /* Set the width of the container */
+    height: 0; /* Set the initial height to 0 to maintain aspect ratio */
+    padding-bottom: 75%; /* Set the desired aspect ratio (e.g., 4:3 = 75%) */
+    position: relative; /* Make the container a positioning context for the image */
+  }
+  
+  .image-grid img {
+    position: absolute; /* Position the image absolutely within the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 100%; /* Make the image fill the container vertically */
+    object-fit: cover; /* Scale and crop the image to fit within the container */
+  }
+
+
+  .whatapp {
+    top: 80%;
+    left: 3%;
+    position: fixed;
+    font-size:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  
+  .call {
+    float: right;
+    top: 80%;
+    right: 3%;
+    position: fixed;
+    font-size:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: rgb(12, 11, 11);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 86vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,16 @@
+<div class="main">
+    <div class="login-container">
+        <h2>Login</h2>
+        <form [formGroup]="regForm" (submit)="submit()">
+
+            <label for="username">Username</label>
+            <input type="text" formControlName="username">
+            
+
+            <label for="pass">Password</label>
+            <input type="password" formControlName="password">
+            
+            <button class="btn btn-primary" type="submit" [disabled]="!regForm.valid">Submit</button>
+        </form>
+    </div>
+</div>

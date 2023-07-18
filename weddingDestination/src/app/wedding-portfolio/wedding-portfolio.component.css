@@ -1,0 +1,54 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+ 
+ 
+  
+  section.hero {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    width: 33%; /* Adjust the width to control the number of items per row */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+ 
